@@ -70,23 +70,13 @@ def follow(nT):
                             follow_ = follow_ | follow_2
     #print("returning for follow({})".format(nT),follow_)
     return follow_
-
-
-
-
-
 no_of_terminals=int(input("Enter no. of terminals: "))
-
 terminals = []
-
 print("Enter the terminals :")
 for _ in range(no_of_terminals):
     terminals.append(input())
-
 no_of_non_terminals=int(input("Enter no. of non terminals: "))
-
 non_terminals = []
-
 print("Enter the non terminals :")
 for _ in range(no_of_non_terminals):
     non_terminals.append(input())
